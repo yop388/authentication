@@ -2,7 +2,7 @@ FROM python:3
 
 WORKDIR /data
 
-RUN apt-get install python3-django
+RUN pip install django
 
 COPY . .
 
