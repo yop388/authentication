@@ -4,6 +4,8 @@ WORKDIR /data
 
 RUN pip install django
 
+RUN pip install mysqlclient
+
 COPY . .
 
 RUN python manage.py migrate
