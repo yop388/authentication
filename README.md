@@ -1,3 +1,2 @@
 # authentication
-sample Django app for make inscription and authentication
-# authentication-1
+sample Django app for making inscription and authentication
